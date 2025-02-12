@@ -10,13 +10,13 @@ replace_text() {
     git grep -l "$old_text" | xargs sed -i "s/$old_text/$new_text/g"
 }
 
-# Replace Monero with your new coin name
-echo "Replacing Monero with MyNewCoin..."
-replace_text "Monero" "MyNewCoin"
+# Replace MyNewCoin with your new coin name
+echo "Replacing MyNewCoin with MyNewCoin..."
+replace_text "MyNewCoin" "MyNewCoin"
 
-# Replace XMR with your new coin ticker
-echo "Replacing XMR with MNC..."
-replace_text "XMR" "MNC"
+# Replace MNC with your new coin ticker
+echo "Replacing MNC with MNC..."
+replace_text "MNC" "MNC"
 
 # Edit cryptonote_config.h manually for network-specific changes
 echo "Editing src/cryptonote_config.h for network specifics..."
@@ -32,7 +32,7 @@ git add .
 
 # Commit changes
 echo "Committing changes..."
-git commit -m "Forked Monero to MyNewCoin with basic changes"
+git commit -m "Forked MyNewCoin to MyNewCoin with basic changes"
 
 # Build the project
 echo "Building the project..."
@@ -56,3 +56,7 @@ echo "Pushing changes to GitHub..."
 git push origin master
 
 echo "Script completed. Check your setup and test your new coin!"
+if ! cd ~/monero; then
+    echo "Failed to change to monero directory"
+    exit 1
+fi

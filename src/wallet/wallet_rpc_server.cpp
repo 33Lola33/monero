@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2024, The Monero Project
+// Copyright (c) 2014-2024, The MyNewCoin Project
 // 
 // All rights reserved.
 // 
@@ -954,7 +954,7 @@ namespace tools
           }
           if (addresses.empty())
           {
-            er.message = std::string("No Monero address found at ") + url;
+            er.message = std::string("No MyNewCoin address found at ") + url;
             return {};
           }
           return addresses[0];
@@ -2367,7 +2367,7 @@ namespace tools
         }
         if (addresses.empty())
         {
-          er.message = std::string("No Monero address found at ") + url;
+          er.message = std::string("No MyNewCoin address found at ") + url;
           return {};
         }
         return addresses[0];
@@ -3196,7 +3196,7 @@ namespace tools
         }
         if (addresses.empty())
         {
-          er.message = std::string("No Monero address found at ") + url;
+          er.message = std::string("No MyNewCoin address found at ") + url;
           return {};
         }
         return addresses[0];
@@ -3251,7 +3251,7 @@ namespace tools
           }
           if (addresses.empty())
           {
-            er.message = std::string("No Monero address found at ") + url;
+            er.message = std::string("No MyNewCoin address found at ") + url;
             return {};
           }
           return addresses[0];
@@ -4613,7 +4613,7 @@ namespace tools
             }
             if (addresses.empty())
             {
-              er.message = std::string("No Monero address found at ") + url;
+              er.message = std::string("No MyNewCoin address found at ") + url;
               return {};
             }
             address = addresses[0];

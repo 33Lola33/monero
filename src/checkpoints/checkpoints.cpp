@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2024, The Monero Project
+// Copyright (c) 2014-2024, The MyNewCoin Project
 //
 // All rights reserved.
 //
@@ -294,7 +294,7 @@ namespace cryptonote
   {
     std::vector<std::string> records;
 
-    // All four MoneroPulse domains have DNSSEC on and valid
+    // All four MyNewCoinPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = { "checkpoints.moneropulse.se"
 						     , "checkpoints.moneropulse.org"
 						     , "checkpoints.moneropulse.net"

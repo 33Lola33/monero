@@ -18,9 +18,9 @@ For example:
 make HOST=x86_64-w64-mingw32 -j4
 ```
 
-A toolchain will be generated that's suitable for plugging into Monero's
+A toolchain will be generated that's suitable for plugging into MyNewCoin's
 cmake. In the above example, a dir named x86_64-w64-mingw32 will be
-created. To use it for Monero, from the top of the Monero source tree:
+created. To use it for MyNewCoin, from the top of the MyNewCoin source tree:
 
 ```bash
 mkdir build

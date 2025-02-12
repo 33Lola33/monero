@@ -2,7 +2,7 @@
 /// @author rfree (current maintainer/user in monero.cc project - most of code is from CryptoNote)
 /// @brief This is the original cryptonote protocol network-events handler, modified by us
 
-// Copyright (c) 2014-2024, The Monero Project
+// Copyright (c) 2014-2024, The MyNewCoin Project
 //
 // All rights reserved.
 //
@@ -1356,7 +1356,7 @@ namespace cryptonote
     cryptonote::network_type nettype = m_core.get_nettype();
 
     // Don't simply use remaining number of blocks for the estimate but "sync weight" as provided by
-    // "cumulative_block_sync_weight" which knows about strongly varying Monero mainnet block sizes
+    // "cumulative_block_sync_weight" which knows about strongly varying MyNewCoin mainnet block sizes
     uint64_t synced_weight = tools::cumulative_block_sync_weight(nettype, m_sync_start_height, current_blockchain_height - m_sync_start_height);
     float us_per_weight = (float)sync_time.total_microseconds() / (float)synced_weight;
     uint64_t remaining_weight = tools::cumulative_block_sync_weight(nettype, current_blockchain_height, target_blockchain_height - current_blockchain_height);

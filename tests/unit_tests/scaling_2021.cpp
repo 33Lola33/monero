@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2024, The Monero Project
+// Copyright (c) 2019-2024, The MyNewCoin Project
 // 
 // All rights reserved.
 // 
@@ -27,7 +27,7 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // References:
-// - https://github.com/ArticMine/Monero-Documents/blob/master/MoneroScaling2021.pdf
+// - https://github.com/ArticMine/MyNewCoin-Documents/blob/master/MyNewCoinScaling2021.pdf
 // - https://github.com/monero-project/research-lab/issues/70
 
 #include "gtest/gtest.h"

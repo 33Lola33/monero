@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2024, The Monero Project
+// Copyright (c) 2017-2024, The MyNewCoin Project
 //
 // All rights reserved.
 //
@@ -73,7 +73,7 @@ namespace trezor
     // Each package instantiation so lookup works
     hw::trezor::messages::common::Success::default_instance();
     hw::trezor::messages::management::Cancel::default_instance();
-    hw::trezor::messages::monero::MoneroGetAddress::default_instance();
+    hw::trezor::messages::monero::MyNewCoinGetAddress::default_instance();
 
 #ifdef WITH_TREZOR_DEBUGGING
     hw::trezor::messages::debug::DebugLinkDecision::default_instance();
@@ -101,13 +101,13 @@ namespace trezor
 //    // CODEGEN way, fast
 //    switch(wire_number){
 //      case 501:
-//        return new messages::monero::MoneroTransactionSignRequest();
+//        return new messages::monero::MyNewCoinTransactionSignRequest();
 //      default:
 //        throw std::runtime_error("not implemented");
 //    }
 //
 //    // CODEGEN message -> number: specification
-//    //    messages::MessageType get_message_wire_number(const messages::monero::MoneroTransactionSignRequest * msg) { return 501; }
+//    //    messages::MessageType get_message_wire_number(const messages::monero::MyNewCoinTransactionSignRequest * msg) { return 501; }
 //    //    messages::MessageType get_message_wire_number(const messages::management::ping * msg)
 //
   }

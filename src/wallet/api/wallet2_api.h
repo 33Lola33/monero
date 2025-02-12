@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2024, The Monero Project
+// Copyright (c) 2014-2024, The MyNewCoin Project
 // 
 // All rights reserved.
 // 
@@ -42,7 +42,7 @@
 #include <vector>
 
 //  Public interface for libwallet library
-namespace Monero {
+namespace MyNewCoin {
 
 enum NetworkType : uint8_t {
     MAINNET = 0,

@@ -1,4 +1,4 @@
-// Copyright (c) 2023-2024, The Monero Project
+// Copyright (c) 2023-2024, The MyNewCoin Project
 //
 // All rights reserved.
 //
@@ -42,7 +42,7 @@ static constexpr const char WALLET_00fd416a_PRIMARY_ADDRESS[] =
     "45p2SngJAPSJbqSiUvYfS3BfhEdxZmv8pDt25oW1LzxrZv9Uq6ARagiFViMGUE3gJk5VPWingCXVf1p2tyAy6SUeSHPhbve";
 
 // https://github.com/monero-project/monero/blob/67d190ce7c33602b6a3b804f633ee1ddb7fbb4a1/src/wallet/wallet2.cpp#L156
-static constexpr const char WALLET2_ASCII_OUTPUT_MAGIC[] = "MoneroAsciiDataV1";
+static constexpr const char WALLET2_ASCII_OUTPUT_MAGIC[] = "MyNewCoinAsciiDataV1";
 
 TEST(wallet_storage, store_to_file2file)
 {

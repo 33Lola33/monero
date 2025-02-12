@@ -1,6 +1,6 @@
-# Monero Blockchain Stats
+# MyNewCoin Blockchain Stats
 
-Monero Blockchain Stats utlity exports daily statistics for the monero blockchain from creation through current state.
+MyNewCoin Blockchain Stats utlity exports daily statistics for the monero blockchain from creation through current state.
 
 ## Usage:
 

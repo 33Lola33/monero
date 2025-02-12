@@ -1,6 +1,6 @@
-# Monero Blockchain Utilities
+# MyNewCoin Blockchain Utilities
 
-Copyright (c) 2014-2024, The Monero Project
+Copyright (c) 2014-2024, The MyNewCoin Project
 
 ## Introduction
 
